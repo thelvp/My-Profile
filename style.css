@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Varela+Round&display=swap');
+
+/* General styling - type selectors */
+
+body {
+  background-color: #edede9;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: "Varela Round", Arial, Helvetica, sans-serif;
+  color: #023e8a;
+  font-size: bigger;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #023e8a;
+}
+
+/* General styling - classes */
+
+.align-center {
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+/* Container & Card  */
+
+.container {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin-bottom: 30px;
+}
+
+/* Grey button */
+
+.btn-gray {
+  color: black;
+  background-color: #e4e4dd;
+  border: 1px solid #e4e4dd;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.3);
+  display: inline-block;
+  margin: 10px;
+}
+
+.btn-gray:hover {
+  color: white;
+  background-color: #023e8a;
+  border: 1px solid #023e8a;
+}
+
+/* Socials list Github/LinkedIn */
+
+.list-inline {
+  margin: 0 auto;
+  padding-left: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.fa-brands {
+  font-size: 40px;
+  color: #ffbd00;
+}
+
+.fa-brands:hover {
+  color: #023e8a;
+}
+
+/* Profile picture */
+
+#profile-pic {
+  height: 30%;
+  width: 30%;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+/* Media Queries */
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
